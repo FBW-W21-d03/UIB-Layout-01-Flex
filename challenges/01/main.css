@@ -1,14 +1,13 @@
 /* Use flexbox to align all divs in a row. Use wrap so that the divs appear on multiple rows. Center the rows in the container*/
 
 
- div {
-    display: flex;
-   /* height: 100px; */
-   /* width: 200px; */ 
-    background-color: darkgray;
-   /* margin: 1em; */
-    border: 2px solid red;
-    text-align: center;
-    flex-wrap: nowrap;
-    } 
+div, img {width: 300px;height: 200px; border: 2px solid chocolate;
+   margin: 5px;}
 
+   
+main{
+   display: flex;flex-wrap: wrap;justify-content: center;
+   align-items: stretch;
+
+}
+.box2 {display: flex;}
