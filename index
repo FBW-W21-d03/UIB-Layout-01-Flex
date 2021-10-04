@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    </text><title>Flexbox</title>
+    <style>
+div, img {width: 300px;height: 200px; border: 2px solid chocolate;
+    margin: 5px;}
+
+    
+main{
+    display: flex;flex-wrap: wrap;justify-content: center;
+    align-items: stretch;
+
+}
+.box2 {display: flex;}
+   </style>
+</head>
+<body>
+    <te<h1>Flexbox</h1>
+    <main>
+        <div class="box1"><h2>Box1</h2></div>
+        <div class="box2"><h2>Box2</h2></div>
+        <div class="box3"><h2>Box3</h2></div>
+        <div class="box4"><h2>Box4</h2></div>
+        <div class="box5"><h2>Box5</h2></div>
+        <div class="box6"><h2>Box6</h2></div>
+        <div class="box7"><h2>Box7</h2></div>
+        <div class="box8"><h2>Box8</h2></div>
+    </main>
+</body>
+</html>
