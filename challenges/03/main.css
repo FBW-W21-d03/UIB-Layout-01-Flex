@@ -7,4 +7,14 @@ div {
     margin: 1em;
     border: 2px solid red;
     text-align: center;
+
+    
+}
+body{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
