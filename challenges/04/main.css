@@ -12,4 +12,15 @@ div {
     margin: 1em;
     border: 2px solid red;
     text-align: center;
+    flex-basis: 14px;
+}
+body{
+    margin: auto;
+    border: solid red 3px;
+  width: 65rem;
+    display: flex;
+align-items: flex-end;
+justify-content: center;
+
+
 }
