@@ -2,7 +2,7 @@
 body{
     display: flex;
     border: 5px solid rgb(238, 11, 11);
-    flex-direction: row;
+    flex-direction: row-reverse;
     
 
 }
