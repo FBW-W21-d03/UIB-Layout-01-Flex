@@ -1,5 +1,11 @@
 /* Use flexbox to align the divs in a row. Reverse the order of the divs. */
+body{
+    display: flex;
+    border: 5px solid rgb(238, 11, 11);
+    flex-direction: row;
+    
 
+}
 
 div {
     height: 100px;
