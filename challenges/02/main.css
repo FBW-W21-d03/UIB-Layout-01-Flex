@@ -1,5 +1,5 @@
 /* Use flexbox to align the divs in a row. Reverse the order of the divs. */
-.flexbox {
+body {
     display: flex;
     flex-direction: row-reverse;
     align-content: center;
