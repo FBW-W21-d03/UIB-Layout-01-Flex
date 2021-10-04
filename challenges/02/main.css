@@ -1,15 +1,14 @@
 /* Use flexbox to align the divs in a row. Reverse the order of the divs. */
 
-
 div {
-    height: 300px;
-    width: 150px;
+    height: 100px;
+    width: 200px; 
     background-color: darkgray;
-    margin: 1em; 
+    margin: 1em;
     border: 2px solid red;
-    text-align: center;
+    text-align: center;}
+    body {
     display: flex;
-    display: inline;
-    
-}
-
+    flex-direction: row;
+     align-items: center;
+flex-wrap: wrap;}
