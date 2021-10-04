@@ -2,7 +2,9 @@
 
 body {
     border: 5px solid red;
-}
+    display: flex;
+    justify-content: center;
+        }
 
 div {
     flex-shrink: 1;

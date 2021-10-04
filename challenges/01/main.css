@@ -2,9 +2,16 @@
 
 
 div {
-    height: 100px;
+     height: 100px;
     width: 200px; 
     background-color: darkgray;
     margin: 1em;
     border: 2px solid red;
-    text-align: center;}
+    text-align: center;
+   
+}
+body {
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
