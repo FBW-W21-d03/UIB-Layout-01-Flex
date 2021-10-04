@@ -1,7 +1,10 @@
 /* Use flexbox to display the divs on one row in the center of the container */
 
 body {
+    display: flex;
     border: 5px solid red;
+    align-items: flex-start;
+    justify-content: Center;
 }
 
 div {
