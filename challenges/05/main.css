@@ -2,6 +2,8 @@
 
 body {
     border: 5px solid red;
+    display: flex;
+    justify-content: center;
 }
 
 div {
@@ -12,4 +14,6 @@ div {
     margin: 1em;
     border: 2px solid red;
     text-align: center;
+    flex-direction: column-reverse;
+    
 }
