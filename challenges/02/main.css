@@ -8,4 +8,10 @@ div {
     margin: 1em;
     border: 2px solid red;
     text-align: center;
+
+}
+body{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 6px solid red;
 }

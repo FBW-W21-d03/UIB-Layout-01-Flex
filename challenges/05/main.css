@@ -1,8 +1,13 @@
 /* Use flexbox to display the divs on one row in the center of the container */
 
+
 body {
     border: 5px solid red;
+    display: flex;
+    justify-content: center;
 }
+
+
 
 div {
     flex-shrink: 1;
